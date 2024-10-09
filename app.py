@@ -12,13 +12,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 # from langchain_openai import ChatOpenAI
 load_dotenv()
-# os.environ["OPENAI_API_KEY"]=os.getenv("OPENAI_API_KEY")
 
-
-## Langsmith Tracking
-# os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
-# os.environ["LANGCHAIN_TRACING_V2"]="true"
-# os.environ["LANGCHAIN_PROJECT"]=os.getenv("LANGCHAIN_PROJECT")
 
 ## Prompt Template
 prompt=ChatPromptTemplate.from_messages(
